@@ -25,6 +25,10 @@
   crossorigin="anonymous"
   referrerpolicy="no-referrer"
 />
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="./scss/main.scss" />
     
     <title>project starter</title>
@@ -91,7 +95,7 @@
         <div class="cards">
           <div class="card__container">
             <div class="card">
-              <div class="card__img"><i class="fa-light fa-pen-ruler"></i></div>
+              <i class="fas fa-pencil-ruler card__icon"></i>
               <h3 class="card__heading heading">website design</h3>
               <p class="paragraph card__paragraph">
                 Just need a designer? I design all my projects using figma, with accessiblity in mind.
@@ -100,7 +104,7 @@
           </div>
           <div class="card__container">
             <div class="card">
-              <div class="card__img"><i class="fa-light fa-laptop-code"></i></div>
+              <i class="fas fa-laptop-code card__icon"></i>
               <h3 class="card__heading heading">website coding</h3>
               <p class="paragraph card__paragraph">
                 I can build your website from scratch with your design, or I can create the design for you.
@@ -109,7 +113,7 @@
           </div>
           <div class="card__container">
             <div class="card">
-              <div class="card__img"></div>
+              <div class="webflow__icon"></div>
               <h3 class="card__heading heading">Webflow development</h3>
               <p class="paragraph card__paragraph">
                 I can create your Webflow site using a theme of your choice, or I can design and build your site for you.
@@ -124,19 +128,19 @@
             <div class="project__card">
               
               <div class="card__link">
-                <a href="https://frontend-mentor-sunnyside-agency-landing-page.vercel.app/" rel="noopener noreferrer" target="_blank" aria-label="link to vist sunnyside agency site"><div class="card__img "><img src="./images/projects/MacBook Pro & iPhone 12 Pro (6).png" alt=""></div> <span class="card__link__text">check it out</span></a>      
+                <a href="https://frontend-mentor-sunnyside-agency-landing-page.vercel.app/" rel="noopener noreferrer" target="_blank" aria-label="link to vist sunnyside agency site"><img src="./images/projects/MacBook Pro & iPhone 12 Pro (6).png" alt="" class="card__img"><span class="card__link__text">check it out</span></a>      
               </div>
             </div>
             <div class="project__card">
               
               <div class="card__link">
-                <a href="https://fylo-landing-page-with-dark-theme-flax.vercel.app/" rel="noopener noreferrer" target="_blank" aria-label="link to vist fylo site"><div class="card__img "><img src="./images/projects/iPad Pro.png" alt=""></div> <span class="card__link__text">check it out</span></a>      
+                <a href="https://fylo-landing-page-with-dark-theme-flax.vercel.app/" rel="noopener noreferrer" target="_blank" aria-label="link to vist fylo site"><img src="./images/projects/iPad Pro.png" alt="" class="card__img"> <span class="card__link__text">check it out</span></a>      
               </div>
             </div>
             <div class="project__card">
               
               <div class="card__link">
-                <a href="https://frontend-mentor-clipboard-landing-page-git-main-chrisbailey85.vercel.app/" rel="noopener noreferrer" target="_blank"><div class="card__img "  aria-label="link to vist clipboard site"><img src="./images/projects/MacBook Pro & iPhone 12 Pro (6).png" alt=""></div> <span class="card__link__text">check it out</span></a>      
+                <a href="https://frontend-mentor-clipboard-landing-page-git-main-chrisbailey85.vercel.app/" rel="noopener noreferrer" target="_blank"  aria-label="link to vist clipboard site"><img src="./images/projects/Display XDR.png" alt="" class="card__img"> <span class="card__link__text">check it out</span></a>      
               </div>
             </div>
       </section>
@@ -144,58 +148,62 @@
       <section class="testimonials">
         <h2 class="heading section-heading">Testimonials</h2>
         <div class="testimonials__cards">
-          <div class="testimonial__card">
+          <div class="testimonials__card">
             <img src="./images/testimonials images/Ellipse 1.png" alt="">
-            <h3 class="heading testimonial__name">Floyd Miles</h3>
-            <p class="paragraph testimonial__paragraph">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <h3 class="heading testimonials__name">Floyd Miles</h3>
+            <p class="paragraph testimonials__paragraph">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
           </div>
-          <div class="testimonial__card">
+          <div class="testimonials__card">
             <img src="./images/testimonials images/Ellipse 1 (1).png" alt="">
-            <h3 class="heading testimonial__name">Jacob Jones</h3>
-            <p class="paragraph testimonial__paragraph">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <h3 class="heading testimonials__name">Jacob Jones</h3>
+            <p class="paragraph testimonials__paragraph">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
           </div>
-          <div class="testimonial__card">
-            <img src="./images/testimonials images/Ellipse 1 (2).png" alt="">
-            <h3 class="heading testimonial__name">Brooklyn Simmons</h3>
-            <p class="paragraph testimonial__paragraph">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          <div class="testimonials__card">
+            <img src="./images/testimonials images/Ellipse 1 (2).png" alt="" >
+            <h3 class="heading testimonials__name">Brooklyn Simmons</h3>
+            <p class="paragraph testimonials__paragraph">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
           </div>
         </div>
       </section>
-      <section class="contact">
+      <section class="contact" id="contact">
         <h2 class="heading section-heading">Let's chat</h2>
         <form
   action="https://formspree.io/f/xdoyvnwn"
   method="POST"
+  class="form"
 >
   <div class="input__container">
-    <label>
+    <label class="form__label">
       Name:
     </label for="name">
-    <input type="email" name="_username" id="name">
+    <input type="email" name="_username" id="name" class="form__input">
   </div>
   <div class="input__container">
-    <label>
+    <label class="form__label">
       Email:
     </label for="email">
-    <input type="email" name="_replyto" id="email">
+    <input type="email" name="_replyto" id="email"  class="form__input">
   </div>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <button type="submit" class="form__btn">Send</button>
+  <div class="input__container">
+
+    <label  class="form__label">
+      Your message:
+    </label>
+    <textarea name="message" class="form__message" rows="10"></textarea>
+  </div>
+  <button type="submit" class="form__btn cta">Send</button>
 </form>
 <div class="social">
   <a href="#" class="social__link">
     <i class="fab fa-facebook-square social__icon"></i>
     <span class="hidden">facebook</span>
   </a>
-  <a href="#" class="social__link">
+  <a href="#" class="social__link messenger">
     <i class="fab fa-facebook-messenger social__icon"></i>
     <span class="hidden">facebook messenger</span>
   </a>
-  <a href="#" class="social__link">
-    <i class="fab fa-twitter social__icon"></i>
+  <a href="#" class="social__link twitter">
+    <i class="fab fa-twitter twitter social__icon"></i>
     <span class="hidden">twitter</span>
   </a>
 </div>
@@ -203,23 +211,23 @@
     </main>
 
     <footer class="footer">
-      <div class="footer logo"></div>
+      <div class="footer__logo"></div>
       <div class="footer__nav">
         <ul class="footer__list">
           <li class="footer__item">
-            <a href="#" class="footer__link">home</a>
+            <a href="#" class="footer__link">Home</a>
           </li>
           <li class="footer__item">
             <a href="#services" class="footer__link">Services</a>
           </li>
           <li class="footer__item">
-            <a href="#" class="footer__link">Projects</a>
+            <a href="#projects" class="footer__link">Projects</a>
           </li>
           <!-- <li class="footer__item">
             <a href="#" class="footer__link">Skills</a>
           </li> -->
           <li class="footer__item">
-            <a href="#" class="footer__link">Contact</a>
+            <a href="#contact" class="footer__link">Contact</a>
           </li>
         </ul>
       </div>
