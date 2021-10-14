@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="site description" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@creator" />
+    <meta property="og:url" content="twiter card link" />
+    <meta property="og:title" content="twitter card title" />
+    <meta property="og:description" content="twiter card description here" />
+    <!-- <meta property="og:image" content="card image" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+  <!-- font awesome cdn -->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+    <link rel="stylesheet" href="./scss/main.scss" />
+    
+    <title>project starter</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo"></div>
+      <nav>
+        <button
+          class="hamburger hamburger--arrowturn"
+          type="button"
+          aria-label="Menu"
+          aria-controls="navigation"
+          aria-expanded="true/false"
+        >
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+
+        <div id="navigation">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Projects</a>
+            </li>
+            <!-- <li class="nav__item">
+              <a href="#" class="nav__link">Skills</a>
+            </li> -->
+            <li class="nav__item">
+              <a href="#" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <button class="toggle__mode" aria-label="toggle dark mode"><i class="far fa-sun"></i></button>
+    </header>
+    <main class="main">
+      <section class="banner">
+        <div class="banner__text">
+          <h1 class="heading banner--heading">
+            Hello, I’m <span class="heading--accent">Chris</span> and I’m a
+            <span class="heading--accent">web developer</span>
+          </h1>
+          <p class="paragarph banner--paragraph">
+            I design and bulid beauiful websites to help you achieve your goals
+          </p>
+          <a href="#projects" class="cta banner__cta">Check out my projects</a>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <h2 class="heading section-heading">Services</h2>
+        <div class="cards">
+          <div class="card__container">
+            <div class="card">
+              <div class="card__img"></div>
+              <h3 class="card__heading heading">website design</h3>
+              <p class="paragarph card__paragarph">
+                Just need a designer? I design all my projects using figma, with accessiblity in mind.
+              </p>
+            </div>
+          </div>
+          <div class="card__container">
+            <div class="card">
+              <div class="card__img"></div>
+              <h3 class="card__heading heading">website coding</h3>
+              <p class="paragarph card__paragarph">
+                I can build your website from scratch with your design, or I can create the design for you.
+              </p>
+            </div>
+          </div>
+          <div class="card__container">
+            <div class="card">
+              <div class="card__img"></div>
+              <h3 class="card__heading heading">Webflow development</h3>
+              <p class="paragarph card__paragarph">
+                I can create your Webflow site using a theme of your choice, or I can design and build your site for you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projects" id="porjects">
+        <h2 class="heading section-heading">Projects</h2>
+        <div class="projects__cards">
+            <div class="project__card">
+              
+              <div class="card__link">
+                <a href="https://frontend-mentor-sunnyside-agency-landing-page.vercel.app/" rel="noopener noreferrer" target="_blank" aria-label="link to vist sunnyside agency site"><div class="card__img "><img src="./images/projects/MacBook Pro & iPhone 12 Pro (6).png" alt=""></div> <span class="card__link__text">check it out</span></a>      
+              </div>
+            </div>
+            <div class="project__card">
+              
+              <div class="card__link">
+                <a href="https://fylo-landing-page-with-dark-theme-flax.vercel.app/" rel="noopener noreferrer" target="_blank" aria-label="link to vist fylo site"><div class="card__img "><img src="./images/projects/iPad Pro.png" alt=""></div> <span class="card__link__text">check it out</span></a>      
+              </div>
+            </div>
+            <div class="project__card">
+              
+              <div class="card__link">
+                <a href="https://frontend-mentor-clipboard-landing-page-git-main-chrisbailey85.vercel.app/" rel="noopener noreferrer" target="_blank"><div class="card__img "  aria-label="link to vist clipboard site"><img src="./images/projects/MacBook Pro & iPhone 12 Pro (6).png" alt=""></div> <span class="card__link__text">check it out</span></a>      
+              </div>
+            </div>
+      </section>
+
+      <section class="testimonials">
+        <h2 class="heading section-heading">Testimonials</h2>
+        <div class="testimonials__cards">
+          <div class="testimonial__card">
+            <img src="./images/testimonials images/Ellipse 1.png" alt="">
+            <h3 class="heading testimonial__name">Floyd Miles</h3>
+            <p class="paragraph testimonial__paragraph">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          </div>
+          <div class="testimonial__card">
+            <img src="./images/testimonials images/Ellipse 1 (1).png" alt="">
+            <h3 class="heading testimonial__name">Jacob Jones</h3>
+            <p class="paragraph testimonial__paragraph">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          </div>
+          <div class="testimonial__card">
+            <img src="./images/testimonials images/Ellipse 1 (2).png" alt="">
+            <h3 class="heading testimonial__name">Brooklyn Simmons</h3>
+            <p class="paragraph testimonial__paragraph">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <h2 class="heading section-heading">Let's chat</h2>
+        <form
+  action="https://formspree.io/f/xdoyvnwn"
+  method="POST"
+>
+  <div class="input__container">
+    <label>
+      Name:
+    </label for="name">
+    <input type="email" name="_username" id="name">
+  </div>
+  <div class="input__container">
+    <label>
+      Email:
+    </label for="email">
+    <input type="email" name="_replyto" id="email">
+  </div>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <button type="submit" class="form__btn">Send</button>
+</form>
+<div class="social">
+  <a href="#" class="social__link">
+    <i class="fab fa-facebook-square social__icon"></i>
+    <span class="hidden">facebook</span>
+  </a>
+  <a href="#" class="social__link">
+    <i class="fab fa-facebook-messenger social__icon"></i>
+    <span class="hidden">facebook messenger</span>
+  </a>
+  <a href="#" class="social__link">
+    <i class="fab fa-twitter social__icon"></i>
+    <span class="hidden">twitter</span>
+  </a>
+</div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer logo"></div>
+      <div class="footer__nav">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">home</a>
+          </li>
+          <li class="footer__item">
+            <a href="#services" class="footer__link">Services</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Projects</a>
+          </li>
+          <!-- <li class="footer__item">
+            <a href="#" class="footer__link">Skills</a>
+          </li> -->
+          <li class="footer__item">
+            <a href="#" class="footer__link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

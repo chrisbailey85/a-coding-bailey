@@ -1,0 +1,48 @@
+@import "./hamburgers/hamburgers.scss";
+// font size's
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --background--color: #FFFEFB;
+  --menu-btn: #333;
+  --card-background: #FDFDFA;
+  --cta: #333;
+  --cta-text: #FFFEFB;
+  --accent: #DA774A; 
+  --text-headings:  #3333;
+  --text: #444;
+  --heading-font: font-family: 'Montserrat', sans-serif;
+  --paragarph-font: font-family: 'Roboto Slab', serif;
+  --font-xl: 2.1rem;
+  --font-l: 1.2rem;
+  --font-m: 1.1rem;
+  --font-s: 0.9rem;
+}
+
+html.dark--mode {
+    --background--color: #121212;
+  --cta: #FFFEFB;
+  --cta-text: #121212;
+  --accent: #DA774A; 
+  --text-headings:  #FFFEFB;
+  --text: #FFFEFB;
+  --menu-btn: #FFFEFB;
+}
+
+@media (min-width:768px) {
+  :root {
+    --font-xl: 3rem
+  --font-l: 1.5rem;
+  --font-m: 1.4rem;
+  --font-s: 0.9rem;
+  }
+}
+body {
+  background-color: var(--background--color);
+  scroll-behavior: smooth;
+  padding: 1.8rem;
+}
+
