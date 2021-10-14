@@ -342,8 +342,7 @@ section {
   align-items: center;
   }
   &__card {
-    height: var(--card-height);
-    width: var(--card-width);
+    max-width: var(--card-width);
     padding: var(--padding-l-r);
     margin-bottom: 3.5rem;
     background-color: var(--card-background);
@@ -459,6 +458,28 @@ section {
   @media (min-width: 375px) {
     :root {
       --padding-l-r: 1.8rem;
+    }
+  }
+  @media (min-width: 425px) {
+    :root {
+      --padding-l-r: 2.4rem;
+      --card-width: 290px;
+  --card-height: 330px;
+    }
+  }
+ 
+  @media (min-width: 768px) {
+    :root {
+      --padding-l-r: 2.4rem;
+      --card-width: 280px;
+    --card-height: 330px;
+    }
+
+    .cards, .testimonials__cards, .projects__cards {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
     }
   }
  
