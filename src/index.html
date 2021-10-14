@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark--mode">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -32,7 +32,7 @@
   <body>
     <header class="header">
       <div class="logo"></div>
-      <nav>
+      <nav class="navbar">
         <button
           class="hamburger hamburger--arrowturn"
           type="button"
@@ -45,27 +45,30 @@
           </span>
         </button>
 
-        <div id="navigation">
+        <div id="navigation" class="nav">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#" class="nav__link">home</a>
+              <a href="#" class="nav__link active">Home</a>
             </li>
             <li class="nav__item">
               <a href="#services" class="nav__link">Services</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Projects</a>
+              <a href="#projects" class="nav__link">Projects</a>
             </li>
             <!-- <li class="nav__item">
               <a href="#" class="nav__link">Skills</a>
             </li> -->
             <li class="nav__item">
-              <a href="#" class="nav__link">Contact</a>
+              <a href="#contact" class="nav__link cta">Contact</a>
+            </li>
+            <li class="nav__item">
+              <button class="toggle__mode" aria-label="toggle dark mode"><i class="far fa-sun icon"></i></button>
             </li>
           </ul>
+         
         </div>
       </nav>
-      <button class="toggle__mode" aria-label="toggle dark mode"><i class="far fa-sun"></i></button>
     </header>
     <main class="main">
       <section class="banner">
@@ -74,10 +77,12 @@
             Hello, I’m <span class="heading--accent">Chris</span> and I’m a
             <span class="heading--accent">web developer</span>
           </h1>
-          <p class="paragarph banner--paragraph">
+          <p class="paragraph banner--paragraph">
             I design and bulid beauiful websites to help you achieve your goals
           </p>
-          <a href="#projects" class="cta banner__cta">Check out my projects</a>
+          <div class="banner__link">
+            <a href="#projects" class="cta banner--cta">Check out my projects</a> 
+          </div>
         </div>
       </section>
 
@@ -88,7 +93,7 @@
             <div class="card">
               <div class="card__img"></div>
               <h3 class="card__heading heading">website design</h3>
-              <p class="paragarph card__paragarph">
+              <p class="paragraph card__paragraph">
                 Just need a designer? I design all my projects using figma, with accessiblity in mind.
               </p>
             </div>
@@ -97,7 +102,7 @@
             <div class="card">
               <div class="card__img"></div>
               <h3 class="card__heading heading">website coding</h3>
-              <p class="paragarph card__paragarph">
+              <p class="paragraph card__paragraph">
                 I can build your website from scratch with your design, or I can create the design for you.
               </p>
             </div>
@@ -106,14 +111,14 @@
             <div class="card">
               <div class="card__img"></div>
               <h3 class="card__heading heading">Webflow development</h3>
-              <p class="paragarph card__paragarph">
+              <p class="paragraph card__paragraph">
                 I can create your Webflow site using a theme of your choice, or I can design and build your site for you.
               </p>
             </div>
           </div>
         </div>
       </section>
-      <section class="projects" id="porjects">
+      <section class="projects" id="projects">
         <h2 class="heading section-heading">Projects</h2>
         <div class="projects__cards">
             <div class="project__card">
