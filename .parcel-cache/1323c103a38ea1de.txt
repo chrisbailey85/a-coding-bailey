@@ -80,7 +80,7 @@
 94C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\escalade\sync\index.js121436361000000000 0
 153C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\foo.js121436361000000000 0
 126C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\browserify-sign\node_modules\readable-stream\README.md121436361000000000 0
-63C:\Users\chris\Desktop\My Projects\web developer portfolio\dist132787188014415273 1
+63C:\Users\chris\Desktop\My Projects\web developer portfolio\dist132787942391028105 1
 89C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\is-symbol\.github132786081290725176 1
 99C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\_unescapeHtmlChar.js121436361000000000 0
 101C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\es-abstract\helpers\assign.js121436361000000000 0
@@ -154,7 +154,7 @@
 89C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\uniq.js121436361000000000 0
 81C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\hmac-drbg132786082162042434 1
 108C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\core-js\modules\esnext.map.update.js121436361000000000 0
-73C:\Users\chris\Desktop\My Projects\web developer portfolio\src\index.html132787033898120588 0
+73C:\Users\chris\Desktop\My Projects\web developer portfolio\src\index.html132787927963230853 0
 127C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js121436361000000000 0
 90C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\oauth-sign\LICENSE121436361000000000 0
 96C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\_baseZipObject.js121436361000000000 0
@@ -195,7 +195,7 @@
 115C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\core-js\modules\es.function.has-instance.js121436361000000000 0
 118C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\sharp\vendor\8.10.6\include\harfbuzz\hb-font.h132612604640000000 0
 86C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\sass\README.md121436361000000000 0
-77C:\Users\chris\Desktop\My Projects\web developer portfolio\src\scss\main.scss132787188012013169 0
+77C:\Users\chris\Desktop\My Projects\web developer portfolio\src\scss\main.scss132787942389103671 0
 118C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\caniuse-lite\data\features\broadcastchannel.js121436361000000000 0
 101C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\utility-types\dist\index.d.ts121436361000000000 0
 98C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\isSafeInteger.js121436361000000000 0
@@ -2105,7 +2105,7 @@
 86C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\mimic-response132786137999826149 1
 84C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\cssstyle\lib132786081460608249 1
 111C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\es-abstract\2020\BigInt\exponentiate.js121436361000000000 0
-90C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\Ellipse 1 (1).6db2abc5.png132787187493377011 0
+90C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\Ellipse 1 (1).6db2abc5.png132787927874688537 0
 110C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\postcss-unique-selectors\dist\index.js121436361000000000 0
 91C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\isNull.js121436361000000000 0
 78C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\mkdirp132786082162042434 1
@@ -2539,7 +2539,7 @@
 105C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\domelementtype\lib\index.d.ts.map121436361000000000 0
 125C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\@parcel\transformer-postcss\lib\PostCSSTransformer.js121436361000000000 0
 103C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\es-abstract\2017\ToPrimitive.js121436361000000000 0
-108C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\MacBook Pro & iPhone 12 Pro (6).9e54cc2e.png132787187493377011 0
+108C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\MacBook Pro & iPhone 12 Pro (6).9e54cc2e.png132787927874688537 0
 89C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\@babel\parser\lib132786080894134460 1
 104C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\es-abstract\2021\IsExtensible.js121436361000000000 0
 81C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\set-value132786082139743451 1
@@ -3485,7 +3485,7 @@
 96C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\vm-browserify\test\vm.js121436361000000000 0
 98C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\is-arguments\test\index.js121436361000000000 0
 118C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\postcss-normalize-display-values\dist\index.js121436361000000000 0
-86C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\Ellipse 1.bfadfc00.png132787187493416908 0
+86C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\Ellipse 1.bfadfc00.png132787927877198361 0
 92C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\isFunction.js121436361000000000 0
 91C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\filter.js121436361000000000 0
 110C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\whatwg-encoding\lib\whatwg-encoding.js121436361000000000 0
@@ -4286,7 +4286,7 @@
 97C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\@babel\traverse\README.md121012626000000000 0
 106C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\postcss-normalize-url\package.json132786082149035492 0
 108C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\caniuse-lite\data\features\webusb.js121436361000000000 0
-85C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\index.fef1cfaf.js.map132787187493975559 0
+85C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\index.fef1cfaf.js.map132787927877956363 0
 114C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\icss-utils\node_modules\source-map\LICENSE131369414900000000 0
 95C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\stylehacks\dist\plugins132786080914418144 1
 117C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\uncss\node_modules\postcss\lib\lazy-result.js121436361000000000 0
@@ -5250,7 +5250,7 @@
 114C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\core-js\features\object\define-property.js121436361000000000 0
 131C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\postcss-modules-values\node_modules\postcss\docs\guidelines132786081066718179 1
 86C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\sshpk\man\man1132786080978163213 1
-92C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\logo-light-mode.d450958d.svg132787187493217469 0
+92C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\logo-light-mode.d450958d.svg132787927876933320 0
 99C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\sshpk\man\man1\sshpk-conv.1130970391170000000 0
 101C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\sshpk\man\man1\sshpk-verify.1130970391170000000 0
 110C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\core-js\features\number\parse-float.js121436361000000000 0
@@ -8753,7 +8753,7 @@
 92C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\is-nan\test\index.js121436361000000000 0
 91C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\msgpackr\index.d.ts121436361000000000 0
 96C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\nullthrows\nullthrows.js121436361000000000 0
-85C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\iPad Pro.f238cbe9.png132787187493217469 0
+85C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\iPad Pro.f238cbe9.png132787927874678979 0
 118C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\caniuse-lite\data\features\css-not-sel-list.js121436361000000000 0
 95C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\nullthrows\package.json132786082158570044 0
 85C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\nth-check\lib132786081178725267 1
@@ -10158,7 +10158,7 @@
 93C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\includes.js121436361000000000 0
 92C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\indexBy.js121436361000000000 0
 97C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\includesFrom.js121436361000000000 0
-81C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\index.fef1cfaf.js132787187493945493 0
+81C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\index.fef1cfaf.js132787927877716997 0
 92C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\indexOf.js121436361000000000 0
 92C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\inRange.js121436361000000000 0
 97C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\intersection.js121436361000000000 0
@@ -10191,7 +10191,7 @@
 90C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\isNaN.js121436361000000000 0
 90C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\isSet.js121436361000000000 0
 101C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\decode-uri-component\index.js131431469560000000 0
-88C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\Group 1 (1).7cf5ca88.svg132787187493217469 0
+88C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\Group 1 (1).7cf5ca88.svg132787927876933320 0
 93C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\isString.js121436361000000000 0
 91C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\acorn\dist\acorn.js121436361000000000 0
 93C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\isSymbol.js121436361000000000 0
@@ -10360,7 +10360,7 @@
 108C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\core-js\features\math\seeded-prng.js121436361000000000 0
 100C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\@types\node\async_hooks.d.ts132779394890000000 0
 94C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\unzipWith.js121436361000000000 0
-83C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\Taieri.d150a650.svg132787187493396975 0
+83C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\Taieri.d150a650.svg132787927877218329 0
 94C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\upperCase.js121436361000000000 0
 89C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\util.js121436361000000000 0
 139C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\@parcel\node-libs-browser\node_modules\readable-stream\lib\internal132786080912111204 1
@@ -17567,9 +17567,9 @@
 85C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\.bin\uuid.cmd132786082185199872 0
 85C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\.bin\uuid.ps1132786082185189896 0
 86C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\.bin\which.ps1132786082185249735 0
-88C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\Display XDR.1dc8ee26.png132787187493416908 0
-90C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\Ellipse 1 (2).8ffa9649.png132787187493217469 0
-82C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\index.34ebc287.css132787188014385363 0
-86C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\index.34ebc287.css.map132787188014405296 0
-74C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\index.html132787187493945493 0
-91C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\logo-dark-mode.04a40596.svg132787187493426880 0
+88C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\Display XDR.1dc8ee26.png132787927877198361 0
+90C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\Ellipse 1 (2).8ffa9649.png132787927874678979 0
+82C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\index.34ebc287.css132787942390884587 0
+86C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\index.34ebc287.css.map132787942391028105 0
+74C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\index.html132787940367312743 0
+91C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\logo-dark-mode.04a40596.svg132787927877248246 0
