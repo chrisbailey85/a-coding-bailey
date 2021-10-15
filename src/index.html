@@ -20,9 +20,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
   <link rel="stylesheet" href="./scss/main.scss" />
 
-  <title>project starter</title>
+  <title>A Coding Bailey</title>
 </head>
 
 <body>
@@ -67,14 +72,14 @@
   <main class="main">
     <section class="banner">
       <div class="banner__text">
-        <h1 class="heading banner--heading" data-aos="fade-left">
-          Hello,I’m <span class="heading--accent">Chris</span>
+        <h1 class="heading banner--heading animate__animated animate__fadeInLeft" >
+          Hello, I’m <span class="heading--accent animate__animated animate__fadeInLeft">Chris</span>
           and I’m a <span class="heading--accent">web developer</span>
            </h1>
-            <p class="paragraph banner--paragraph ">
+            <p class="paragraph banner--paragraph animate__animated animate__fadeInLeft animate__delay-2s">
               I design and bulid beauiful websites to help you achieve your goals
             </p>
-            <div class="banner__link ">
+            <div class="banner__link animate__animated animate__fadeInLeft animate__delay-3s">
               <a href="#projects" class="cta banner--cta">Check out my projects</a>
             </div>
       </div>
@@ -171,41 +176,42 @@
     </section>
     <section class="contact" id="contact">
       <h2 class="heading section-heading">Let's chat</h2>
-      <form action="https://formspree.io/f/xdoyvnwn" method="POST" class="form">
-        <div class="input__container">
-          <label class="form__label">
-            Name:
-          </label for="name">
-          <input type="email" name="_username" id="name" class="form__input">
+      <div class="contact__info">
+        <form action="https://formspree.io/f/xdoyvnwn" method="POST" class="form">
+          <div class="input__container">
+            <label class="form__label">
+              Name:
+            </label for="name">
+            <input type="email" name="_username" id="name" class="form__input">
+          </div>
+          <div class="input__container">
+            <label class="form__label">
+              Email:
+            </label for="email">
+            <input type="email" name="_replyto" id="email" class="form__input">
+          </div>
+          <div class="input__container">
+            <label class="form__label">
+              Your message:
+            </label>
+            <textarea name="message" class="form__message" rows="10"></textarea>
+          </div>
+          <button type="submit" class="form__btn cta">Send</button>
+        </form>
+        <div class="social">
+          <a href="#" class="social__link">
+            <i class="fab fa-facebook-square social__icon"></i>
+            <span class="hidden">facebook</span>
+          </a>
+          <a href="#" class="social__link messenger">
+            <i class="fab fa-facebook-messenger social__icon"></i>
+            <span class="hidden">facebook messenger</span>
+          </a>
+          <a href="#" class="social__link twitter">
+            <i class="fab fa-twitter twitter social__icon"></i>
+            <span class="hidden">twitter</span>
+          </a>
         </div>
-        <div class="input__container">
-          <label class="form__label">
-            Email:
-          </label for="email">
-          <input type="email" name="_replyto" id="email" class="form__input">
-        </div>
-        <div class="input__container">
-
-          <label class="form__label">
-            Your message:
-          </label>
-          <textarea name="message" class="form__message" rows="10"></textarea>
-        </div>
-        <button type="submit" class="form__btn cta">Send</button>
-      </form>
-      <div class="social">
-        <a href="#" class="social__link">
-          <i class="fab fa-facebook-square social__icon"></i>
-          <span class="hidden">facebook</span>
-        </a>
-        <a href="#" class="social__link messenger">
-          <i class="fab fa-facebook-messenger social__icon"></i>
-          <span class="hidden">facebook messenger</span>
-        </a>
-        <a href="#" class="social__link twitter">
-          <i class="fab fa-twitter twitter social__icon"></i>
-          <span class="hidden">twitter</span>
-        </a>
       </div>
     </section>
   </main>

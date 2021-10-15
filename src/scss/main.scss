@@ -28,6 +28,7 @@
   --card-width: 260px;
   --card-height: 330px;
   --card-icon: 3rem;
+  --animate-delay: 0.7s;
 }
 
 html.dark--mode {
@@ -55,7 +56,7 @@ html.dark--mode {
 
 body {
   background-color: var(--background--color);
-  line-height: 1.3;
+  line-height: 1.5;
 }
 body.nav--open {
   overflow: hidden;
@@ -163,13 +164,14 @@ body.nav--open {
 }
 
 .toggle__mode {
-  background-color: rgba($color: #000000, $alpha: 0.1);
+  background-color: rgba($color: #121212, $alpha: 0.1);
   padding: 0.5em;
   font-size: var(--font-m);
   border-radius: 50%;
   border: none;
   .icon {
     color: var(--nav-links-color);
+    font-size: 2rem;
   }
 }
 
@@ -189,7 +191,7 @@ section {
 .section-heading {
   position: relative;
   font-size: var(--font-l);
-  margin-bottom: 3.5rem;
+  margin-bottom: 5.5rem;
   z-index: -1;
   &::before {
     content: '';
@@ -255,7 +257,11 @@ section {
   position: relative;
   width: var(--card-width);
   height: var(--card-height);
-  margin-bottom: 3.5rem;
+  margin-bottom: 6.5rem;
+
+  &:last-child {
+    margin-bottom: 3.5rem;
+  }
 }
 .card {
   width: 100%;
@@ -520,8 +526,14 @@ section {
       max-width: 50%;
       padding-right: 5rem;
     }
-
-    .form {
-      max-width: 50%;
+    .contact__info {
+      display: flex;
+      justify-content: space-between;
+      // align-items: center;
     }
+    .form, .social {
+      min-width: 50%;
+    }
+
+
   }
