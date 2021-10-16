@@ -468,7 +468,7 @@ mobileMenuBtn.addEventListener('click', ()=>{
     body.classList.toggle('nav--open');
 });
 navLinks.forEach((link)=>{
-    link.addEventListener('click', ()=>{
+    link.addEventListener('click', (e)=>{
         if (navigation.classList.contains('open')) {
             navigation.classList.remove('open');
             mobileMenuBtn.ariaExpanded = false;

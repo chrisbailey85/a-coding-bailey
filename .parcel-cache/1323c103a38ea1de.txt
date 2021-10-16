@@ -80,7 +80,7 @@
 94C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\escalade\sync\index.js121436361000000000 0
 153C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\foo.js121436361000000000 0
 126C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\browserify-sign\node_modules\readable-stream\README.md121436361000000000 0
-63C:\Users\chris\Desktop\My Projects\web developer portfolio\dist132788014138469773 1
+63C:\Users\chris\Desktop\My Projects\web developer portfolio\dist132788534805547082 1
 89C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\is-symbol\.github132786081290725176 1
 99C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\_unescapeHtmlChar.js121436361000000000 0
 101C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\es-abstract\helpers\assign.js121436361000000000 0
@@ -121,7 +121,7 @@
 93C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\prelude-ls\lib\Obj.js130761311190000000 0
 85C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\gte.js121436361000000000 0
 94C:\Users\chris\Desktop\My Projects\web developer portfolio\src\scss\hamburgers\hamburgers.scss132786271643373382 0
-70C:\Users\chris\Desktop\My Projects\web developer portfolio\src\main.js132787016141042571 0
+70C:\Users\chris\Desktop\My Projects\web developer portfolio\src\main.js132788532136361599 0
 77C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\fault132786082172253718 1
 89C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\to-regex\index.js131639341680000000 0
 76C:\Users\chris\Desktop\My Projects\web developer portfolio\package-lock.json132786138127564775 0
@@ -154,7 +154,7 @@
 89C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\uniq.js121436361000000000 0
 81C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\hmac-drbg132786082162042434 1
 108C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\core-js\modules\esnext.map.update.js121436361000000000 0
-73C:\Users\chris\Desktop\My Projects\web developer portfolio\src\index.html132788012655021226 0
+73C:\Users\chris\Desktop\My Projects\web developer portfolio\src\index.html132788532447382484 0
 127C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\jsdom\lib\jsdom\living\helpers\runtime-script-errors.js121436361000000000 0
 90C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\oauth-sign\LICENSE121436361000000000 0
 96C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\_baseZipObject.js121436361000000000 0
@@ -195,7 +195,7 @@
 115C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\core-js\modules\es.function.has-instance.js121436361000000000 0
 118C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\sharp\vendor\8.10.6\include\harfbuzz\hb-font.h132612604640000000 0
 86C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\sass\README.md121436361000000000 0
-77C:\Users\chris\Desktop\My Projects\web developer portfolio\src\scss\main.scss132788014136915214 0
+77C:\Users\chris\Desktop\My Projects\web developer portfolio\src\scss\main.scss132788534803974694 0
 118C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\caniuse-lite\data\features\broadcastchannel.js121436361000000000 0
 101C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\utility-types\dist\index.d.ts121436361000000000 0
 98C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\isSafeInteger.js121436361000000000 0
@@ -4286,7 +4286,7 @@
 97C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\@babel\traverse\README.md121012626000000000 0
 106C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\postcss-normalize-url\package.json132786082149035492 0
 108C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\caniuse-lite\data\features\webusb.js121436361000000000 0
-85C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\index.fef1cfaf.js.map132787927877956363 0
+85C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\index.fef1cfaf.js.map132788532137543829 0
 114C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\icss-utils\node_modules\source-map\LICENSE131369414900000000 0
 95C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\stylehacks\dist\plugins132786080914418144 1
 117C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\uncss\node_modules\postcss\lib\lazy-result.js121436361000000000 0
@@ -10158,7 +10158,7 @@
 93C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\includes.js121436361000000000 0
 92C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\indexBy.js121436361000000000 0
 97C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\includesFrom.js121436361000000000 0
-81C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\index.fef1cfaf.js132787927877716997 0
+81C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\index.fef1cfaf.js132788532137503947 0
 92C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\indexOf.js121436361000000000 0
 92C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\inRange.js121436361000000000 0
 97C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\lodash\fp\intersection.js121436361000000000 0
@@ -17569,7 +17569,7 @@
 86C:\Users\chris\Desktop\My Projects\web developer portfolio\node_modules\.bin\which.ps1132786082185249735 0
 88C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\Display XDR.1dc8ee26.png132787927877198361 0
 90C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\Ellipse 1 (2).8ffa9649.png132787927874678979 0
-82C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\index.34ebc287.css132788014138439855 0
-86C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\index.34ebc287.css.map132788014138459803 0
-74C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\index.html132788012656055681 0
+82C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\index.34ebc287.css132788534805517155 0
+86C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\index.34ebc287.css.map132788534805547082 0
+74C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\index.html132788532449061115 0
 91C:\Users\chris\Desktop\My Projects\web developer portfolio\dist\logo-dark-mode.04a40596.svg132787927877248246 0

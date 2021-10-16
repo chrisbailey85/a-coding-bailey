@@ -12,7 +12,7 @@ mobileMenuBtn.addEventListener('click', () => {
 });
 
 navLinks.forEach(link => {
-    link.addEventListener('click', () => {
+    link.addEventListener('click', (e) => {
         if(navigation.classList.contains('open')) {
             navigation.classList.remove('open') 
             mobileMenuBtn.ariaExpanded = false;
