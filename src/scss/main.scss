@@ -57,6 +57,7 @@ html.dark--mode {
 body {
   background-color: var(--background--color);
   line-height: 1.5;
+  scroll-behavior: smooth;
 }
 body.nav--open {
   overflow: hidden;
@@ -206,6 +207,7 @@ section {
 }
 .main {
   padding-top: 10.5rem;
+  
 }
 .cta {
   background-color: var(--cta);
