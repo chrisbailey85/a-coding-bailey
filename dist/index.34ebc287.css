@@ -128,7 +128,6 @@ html.dark--mode {
 body {
   background-color: var(--background--color);
   line-height: 1.5;
-  scroll-behavior: smooth;
 }
 body.nav--open {
   overflow: hidden;

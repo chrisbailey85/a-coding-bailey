@@ -2,7 +2,6 @@
   "name": "a-coding-bailey-portfolio",
   "version": "1.0.0",
   "description": "a coding bailey's portfolio",
-  "main": "index.js",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
