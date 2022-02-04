@@ -478,8 +478,8 @@ navLinks.forEach((link)=>{
     });
 });
 toggleModeBtn.addEventListener('click', ()=>{
-    html.classList.toggle('dark--mode');
-    html.classList.contains('dark--mode') ? toggleModeBtn.innerHTML = '<i class="far fa-moon icon"></i>' : toggleModeBtn.innerHTML = '<i class="far fa-sun icon"></i>';
+    html.classList.toggle('light--mode');
+    html.classList.contains('light--mode') ? toggleModeBtn.innerHTML = '<i class="far fa-sun"></i>' : toggleModeBtn.innerHTML = '<i class="far  fa-moon icon icon"></i>';
 });
 
 //# sourceMappingURL=index.fef1cfaf.js.map

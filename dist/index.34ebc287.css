@@ -80,31 +80,6 @@
   box-sizing: border-box;
 }
 :root {
-  --background--color: #FFFEFB;
-  --menu-btn: #333;
-  --card-background: #FDFDFA;
-  --cta: #222;
-  --cta-text: #FFFEFB;
-  --accent: #DA774A;
-  --text-headings: #333;
-  --nav-links-color: #222;
-  --text: #444;
-  --heading-font: font-family: "Montserrat", sans-serif;
-  --paragarph-font: font-family: "Roboto Slab", serif;
-  --logo: url("logo-light-mode.d450958d.svg");
-  --webflow-logo: url("Group 1 (1).7cf5ca88.svg");
-  --drop-shadow: rgba(34, 34, 34, 0.2);
-  --font-xl: 2.3rem;
-  --font-l: 1.7rem;
-  --font-m: 1.1rem;
-  --font-s: 0.9rem;
-  --padding-l-r: 1.5rem;
-  --card-width: 260px;
-  --card-height: 330px;
-  --card-icon: 3rem;
-  --animate-delay: 0.7s;
-}
-html.dark--mode {
   --background--color: #121212;
   --cta: #FFFEFB;
   --cta-text: #121212;
@@ -116,6 +91,30 @@ html.dark--mode {
   --logo: url("logo-dark-mode.04a40596.svg");
   --drop-shadow: rgba(255, 254, 251, 0.1);
   --nav-links-color: #fffefb;
+  --menu-btn: #DA774A;
+  --heading-font: font-family: "Montserrat", sans-serif;
+  --paragarph-font: font-family: "Roboto Slab", serif;
+  --webflow-logo: url("Group 1 (1).7cf5ca88.svg");
+  --font-xl: 2.3rem;
+  --font-l: 1.7rem;
+  --font-m: 1.1rem;
+  --font-s: 0.9rem;
+  --padding-l-r: 1.5rem;
+  --card-width: 260px;
+  --card-height: 330px;
+  --card-icon: 3rem;
+  --animate-delay: 0.7s;
+}
+html.light--mode {
+  --background--color: #FFFEFB;
+  --card-background: #FDFDFA;
+  --cta: #222;
+  --cta-text: #FFFEFB;
+  --text-headings: #333;
+  --nav-links-color: #222;
+  --text: #444;
+  --logo: url("logo-light-mode.d450958d.svg");
+  --drop-shadow: rgba(34, 34, 34, 0.2);
 }
 @media (min-width: 768px) {
   :root {
@@ -252,7 +251,7 @@ section {
   position: absolute;
   left: 0;
   bottom: -2px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 .main {
   padding-top: 10.5rem;
@@ -261,7 +260,7 @@ section {
   background-color: var(--cta);
   padding: 0.6rem 2rem;
   color: var(--cta-text);
-  border-radius: 10px;
+  border-radius: 15px;
   border: 1px solid;
   transition: all 0.3s ease-in-out;
 }
@@ -300,7 +299,7 @@ section {
 }
 .card__container, .project__card {
   border: 10px solid var(--accent);
-  border-radius: 10px;
+  border-radius: 15px;
   position: relative;
   width: var(--card-width);
   height: var(--card-height);
@@ -313,7 +312,7 @@ section {
   width: 100%;
   height: 100%;
   background-color: var(--card-background);
-  border-radius: 10px;
+  border-radius: 15px;
   transform: translate(20px, -30px);
   padding: var(--padding-l-r);
   display: flex;
@@ -349,6 +348,7 @@ section {
   transition: transform 0.3s ease-in;
   background-color: var(--card-background);
   filter: drop-shadow(2px 2px 2px var(--drop-shadow));
+  border-radius: 15px;
 }
 .card__link:active {
   transform: translate(0, 0);
@@ -399,6 +399,7 @@ section {
   margin-bottom: 3.5rem;
   background-color: var(--card-background);
   filter: drop-shadow(2px 2px 2px var(--drop-shadow));
+  border-radius: 15px;
 }
 .testimonials__card:last-child {
   margin-bottom: 0;
@@ -417,13 +418,13 @@ section {
 .form__label {
   display: block;
   font-family: var(--heading-font);
-  margin: 0.8rem 0;
+  margin: 1rem 0;
   color: var(--text-headings);
 }
 .form__input {
   width: 100%;
   height: 2rem;
-  border-radius: 8px;
+  border-radius: 10px;
   border: 1px solid var(--cta);
   padding-left: 1rem;
 }
@@ -433,8 +434,9 @@ section {
 .form__message {
   width: 100%;
   padding: 1rem;
-  border-radius: 8px;
+  border-radius: 10px;
   border: 1px solid var(--cta);
+  margin-bottom: 1rem;
 }
 .form__message:focus {
   outline: 2px solid var(--accent);
@@ -483,8 +485,10 @@ section {
 }
 .footer {
   margin-top: 6.5rem;
-  padding: var(--padding-l-r);
   background-color: #121212;
+}
+.footer__container {
+  padding: 1rem var(--padding-l-r);
 }
 .footer__logo {
   width: 150px;
@@ -599,7 +603,7 @@ section {
 }
 @media (min-width: 1024px) {
   :root {
-    --card-width: 280px;
+    --card-width: 320px;
   }
 
   .testimonials__card:nth-child(3) {
@@ -686,6 +690,7 @@ section {
     transform: translate(0, 0);
     background-color: var(--accent);
     filter: unset;
+    border-radius: 0;
   }
   .card__link:hover .card__link__text {
     top: 50%;
@@ -693,6 +698,7 @@ section {
     bottom: initial;
     transform: translate(-50%, -50%);
     color: var(--cta-text);
+    font-size: 1.5rem;
   }
   .card__link:hover .card__img {
     opacity: 0;
