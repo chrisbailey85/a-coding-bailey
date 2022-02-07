@@ -15,7 +15,7 @@
   --text: #FFFEFB;
   --menu-btn: #fffefb;
   --logo: url("../images/logo-dark-mode.svg");
-  --drop-shadow: rgba(255, 254, 251, 0.1);
+  --drop-shadow: rgba(255, 254, 251, 0);
   --nav-links-color: #fffefb;
   --menu-btn: #DA774A;
   --heading-font: font-family: 'Montserrat', sans-serif;
@@ -354,8 +354,11 @@ section {
       margin-bottom: 0;
     }
   }
-  &__name, &__paragraph {
+  &__name {
     margin: 1.5rem 0;
+  }
+  &__paragraph {
+    margin-top: 1.5rem;
   }
 }
 .contact {

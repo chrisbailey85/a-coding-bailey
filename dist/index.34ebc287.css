@@ -89,7 +89,7 @@
   --text: #FFFEFB;
   --menu-btn: #fffefb;
   --logo: url("logo-dark-mode.04a40596.svg");
-  --drop-shadow: rgba(255, 254, 251, 0.1);
+  --drop-shadow: rgba(255, 254, 251, 0);
   --nav-links-color: #fffefb;
   --menu-btn: #DA774A;
   --heading-font: font-family: "Montserrat", sans-serif;
@@ -404,8 +404,11 @@ section {
 .testimonials__card:last-child {
   margin-bottom: 0;
 }
-.testimonials__name, .testimonials__paragraph {
+.testimonials__name {
   margin: 1.5rem 0;
+}
+.testimonials__paragraph {
+  margin-top: 1.5rem;
 }
 .contact {
   padding: var(--padding-l-r);
